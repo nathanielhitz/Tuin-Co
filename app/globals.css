@@ -6,14 +6,17 @@
   --color-ink:        #1e241d; /* diep olijf-antraciet — tekst */
   --color-muted:      #566150; /* gedempt groen-grijs — bijtekst */
 
-  /* ── Accent: terracotta (knoppen/CTA's) ── */
-  --color-brand:      #b0542f;
-  --color-brand-deep: #93431f;
+  /* ── brand = dennengroen — knoppen/CTA's, dé merkkleur ── */
+  --color-brand:      #2f6040;
+  --color-brand-deep: #244a30;
 
-  /* ── moss = merkgroen (eyebrows, labels, links, focus, hover) ── */
+  /* ── clay = warme terracotta-spark (klein accent, anti-kloon) ── */
+  --color-clay:       #b0542f;
+
+  /* ── moss = diep merkgroen (eyebrows, labels, links, focus, donkere vlakken) ── */
   --color-moss:       #2f4a37; /* diep dennen-/mosgroen */
   --color-moss-deep:  #23382a;
-  --color-moss-soft:  #e8ebdd; /* zachte salie-achtergrond voor secties */
+  --color-moss-soft:  #e2e8d5; /* zachte salie-achtergrond voor secties */
 
   --color-line:        #1e241d1f;
   --color-line-strong: #1e241d3b;

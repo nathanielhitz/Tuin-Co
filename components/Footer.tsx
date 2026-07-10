@@ -12,7 +12,7 @@ const nav = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-ink pb-24 text-paper md:pb-0">
+    <footer className="border-t border-line bg-moss pb-24 text-paper md:pb-0">
       <div className="mx-auto max-w-[1400px] px-5 py-16 md:px-8 md:py-20">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           <div className="md:col-span-4">

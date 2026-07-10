@@ -17,14 +17,14 @@ export default function Hero() {
           sizes="100vw"
           className="scale-105 object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/45 via-ink/25 to-ink/85" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink/55 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-moss-deep/45 via-moss-deep/25 to-moss-deep/90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-moss-deep/60 via-transparent to-transparent" />
       </div>
 
       <div className="mx-auto w-full max-w-[1400px] px-5 pb-16 pt-28 md:px-8 md:pb-24 lg:pb-28">
         {/* Badge/wordmark over de foto — de "ontworpen" indruk */}
         <div className="inline-flex items-center gap-3 rounded-full border border-paper/25 bg-ink/25 px-4 py-2 backdrop-blur-sm">
-          <span className="h-1.5 w-1.5 rounded-full bg-brand" aria-hidden="true" />
+          <span className="h-1.5 w-1.5 rounded-full bg-clay" aria-hidden="true" />
           <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-paper/90">
             Hovenier · {company.city} & de {company.region}
           </span>
