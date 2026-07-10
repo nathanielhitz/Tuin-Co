@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Warme, natuurlijke basis ── */
+  --color-paper:      #f5f1e8; /* warm linnen — paginachtergrond */
+  --color-ink:        #1e241d; /* diep olijf-antraciet — tekst */
+  --color-muted:      #566150; /* gedempt groen-grijs — bijtekst */
+
+  /* ── Accent: terracotta (knoppen/CTA's) ── */
+  --color-brand:      #b0542f;
+  --color-brand-deep: #93431f;
+
+  /* ── moss = merkgroen (eyebrows, labels, links, focus, hover) ── */
+  --color-moss:       #2f4a37; /* diep dennen-/mosgroen */
+  --color-moss-deep:  #23382a;
+  --color-moss-soft:  #e8ebdd; /* zachte salie-achtergrond voor secties */
+
+  --color-line:        #1e241d1f;
+  --color-line-strong: #1e241d3b;
+
+  /* ── Typografie ── */
+  --font-sans:  var(--font-manrope), system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-mono:  var(--font-manrope), system-ui, sans-serif;
+
+  /* ── Animaties ── */
+  --animate-fade-up: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-fade-in: fade-in 0.6s ease both;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #f5f1e8;
+  color: #1e241d;
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Display-koppen in Fraunces (serif) — geeft de warme, ambachtelijke toon.
+   Eyebrow-labels zijn <p> en blijven dus in de sans. */
+h1, h2, h3 {
+  font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  font-optical-sizing: auto;
+}
+
+/* Scroll-reveal utility */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.in-view { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: 0.08s; }
+.reveal-d2 { transition-delay: 0.16s; }
+.reveal-d3 { transition-delay: 0.24s; }
+.reveal-d4 { transition-delay: 0.32s; }
+
+/* Focus ring, consistent + zichtbaar */
+:focus-visible {
+  outline: 2px solid var(--color-moss);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f5f1e8; }
+::-webkit-scrollbar-thumb { background: #1e241d1f; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #566150; }
