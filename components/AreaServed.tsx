@@ -15,7 +15,7 @@ export default function AreaServed() {
               Thuis in de hele Hoeksche Waard
             </h2>
             <p className="mt-5 max-w-md text-base leading-relaxed text-muted">
-              Vanuit {company.city} werk ik in de dorpen rondom — van &apos;s-Gravendeel
+              Vanuit {company.city} werk ik in de dorpen rondom, van &apos;s-Gravendeel
               en Maasdam tot Strijen en Numansdorp. Twijfelt u of uw woonplaats
               erbij hoort? Bel of app gerust even.
             </p>

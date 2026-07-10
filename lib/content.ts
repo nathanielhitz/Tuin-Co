@@ -1,4 +1,4 @@
-// Centrale, feitelijke bedrijfsgegevens — uit de crawl van tuinenco.nl.
+// Centrale, feitelijke bedrijfsgegevens uit de crawl van tuinenco.nl.
 // Geen bedachte cijfers, beoordelingen of prijzen: alleen wat bevestigd is.
 // Open punten (reviews, exact werkgebied, WhatsApp-bevestiging) staan in README.md.
 
@@ -71,7 +71,7 @@ export const services: Service[] = [
     title: "Tuinontwerp & aanleg",
     description: "Van eerste schets tot complete aanleg",
     detail:
-      "Wilt u een compleet nieuwe tuin maar heeft u geen inspiratie? Ik kom uw wensen bespreken en vertaal ze naar een ontwerp — en leg de tuin vervolgens compleet voor u aan. Alles in één hand.",
+      "Wilt u een compleet nieuwe tuin maar heeft u geen inspiratie? Ik kom uw wensen bespreken en vertaal ze naar een ontwerp, en leg de tuin vervolgens compleet voor u aan. Alles in één hand.",
   },
   {
     id: "bestrating",
@@ -87,7 +87,7 @@ export const services: Service[] = [
     title: "Beplanting & borders",
     description: "Klimaatbestendige, groene tuinen",
     detail:
-      "Minstens de helft van de tuin een mix van hoge en lage beplanting. Zo wordt de tuin klimaatbestendig en helpen we de natuur — en geniet u het hele jaar van groen.",
+      "Minstens de helft van de tuin een mix van hoge en lage beplanting. Zo wordt de tuin klimaatbestendig en helpen we de natuur, en geniet u het hele jaar van groen.",
   },
   {
     id: "verlichting",
@@ -111,7 +111,7 @@ export const services: Service[] = [
     title: "Duurzaam & regenwater",
     description: "Slimme oplossingen tegen wateroverlast",
     detail:
-      "Door klimaatverandering krijgen we vaker te maken met wateroverlast of juist droogte. Met slimme oplossingen verduurzaam ik uw tuin — voor sommige is zelfs subsidie beschikbaar.",
+      "Door klimaatverandering krijgen we vaker te maken met wateroverlast of juist droogte. Met slimme oplossingen verduurzaam ik uw tuin. Voor sommige is zelfs subsidie beschikbaar.",
   },
 ];
 
@@ -161,7 +161,7 @@ export const workSteps: WorkStep[] = [
     step: "02",
     title: "Ontwerp & offerte",
     description:
-      "Ik vertaal uw wensen naar een plan en een heldere offerte — zonder verrassingen achteraf.",
+      "Ik vertaal uw wensen naar een plan en een heldere offerte, zonder verrassingen achteraf.",
   },
   {
     step: "03",
@@ -196,7 +196,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Doen jullie ook kleine klussen?",
     answer:
-      "Zeker. Een compleet nieuwe tuin, groot onderhoud of 'gewoon' een kleine klus in de tuin — ik kom graag de mogelijkheden bespreken.",
+      "Zeker. Een compleet nieuwe tuin, groot onderhoud of 'gewoon' een kleine klus in de tuin. Ik kom graag de mogelijkheden bespreken.",
   },
   {
     question: "Wat bedoelen jullie met een klimaatbestendige tuin?",
@@ -225,7 +225,7 @@ export type Project = {
   gallery: { src: string; alt: string }[];
 };
 
-// Bestaande projectfoto's van de huidige website — hergebruikt, niet gedownload.
+// Bestaande projectfoto's van de huidige website, hergebruikt, niet gedownload.
 export const projects: Project[] = [
   {
     id: "achtertuin-numansdorp",

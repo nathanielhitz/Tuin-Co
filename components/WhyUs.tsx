@@ -27,7 +27,7 @@ export default function WhyUs() {
             </ul>
           </Reveal>
 
-          {/* Highlight: gratis verlichtingsdemo — unieke haak */}
+          {/* Highlight: gratis verlichtingsdemo, unieke haak */}
           <Reveal delay={2} className="lg:col-span-5">
             <div className="flex h-full flex-col justify-between rounded-2xl bg-ink p-8 text-paper">
               <div>
@@ -42,7 +42,7 @@ export default function WhyUs() {
                 <p className="mt-3 text-sm leading-relaxed text-paper/80">
                   Zien wat tuinverlichting met uw tuin doet? Met mijn demokoffer
                   vol {company.lightingBrand}-lampen laat ik het effect &apos;s avonds
-                  in uw eigen tuin zien — vrijblijvend en zonder kosten.
+                  in uw eigen tuin zien, vrijblijvend en zonder kosten.
                 </p>
               </div>
               <a

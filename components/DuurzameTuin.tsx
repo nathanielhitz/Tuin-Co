@@ -5,7 +5,7 @@ import { jimg } from "@/lib/content";
 const points = [
   {
     title: "Minstens de helft groen",
-    text: "Ik streef naar maximaal 50% bestrating. De rest een mix van hoge en lage beplanting — beter tegen hitte en droogte, en fijner om in te vertoeven.",
+    text: "Ik streef naar maximaal 50% bestrating. De rest een mix van hoge en lage beplanting, beter tegen hitte en droogte, en fijner om in te vertoeven.",
   },
   {
     title: "Regenwater slim opgevangen",
@@ -49,7 +49,7 @@ export default function DuurzameTuin() {
             <p className="mt-5 max-w-[54ch] text-base leading-relaxed text-muted">
               Door de veranderingen in het klimaat hebben we steeds vaker te maken
               met wateroverlast of extreme droogte. Daarom leg ik tuinen aan met
-              oog voor groen én water — mooi om te zien, en klaar voor de toekomst.
+              oog voor groen én water, mooi om te zien en klaar voor de toekomst.
             </p>
 
             <ul className="mt-8 divide-y divide-line border-y border-line">

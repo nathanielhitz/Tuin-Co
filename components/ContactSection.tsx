@@ -70,7 +70,7 @@ export default function ContactSection() {
             <p className="mt-5 max-w-md text-base leading-relaxed text-muted">
               Een compleet nieuwe tuin, groot onderhoud of &apos;gewoon&apos; een kleine klus?
               Ik kom graag vrijblijvend de mogelijkheden bespreken. Bellen of appen
-              kan natuurlijk ook — daarmee ben ik vaak het snelst bij u.
+              kan natuurlijk ook. Daarmee ben ik vaak het snelst bij u.
             </p>
 
             <div className="mt-8 divide-y divide-line border-y border-line">

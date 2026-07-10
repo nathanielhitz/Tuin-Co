@@ -79,7 +79,7 @@ export default function Services() {
         </div>
         <div className="md:col-span-5 md:col-start-8">
           <p className="max-w-[52ch] text-base leading-relaxed text-muted">
-            Van een compleet nieuwe tuin tot maandelijks onderhoud — en de kleine
+            Van een compleet nieuwe tuin tot maandelijks onderhoud, en de kleine
             klussen daartussenin. U hoeft maar met één vakman te schakelen.
           </p>
         </div>

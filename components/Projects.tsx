@@ -18,7 +18,7 @@ export default function Projects() {
           </div>
           <div className="md:col-span-4 md:col-start-9 md:pb-2">
             <p className="max-w-[44ch] text-base leading-relaxed text-muted">
-              Een greep uit recent opgeleverde tuinen in de Hoeksche Waard —
+              Een greep uit recent opgeleverde tuinen in de Hoeksche Waard,
               van ontwerp en bestrating tot beplanting en vlonder.
             </p>
           </div>

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { company } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Privacybeleid — Tuin & Co",
+  title: "Privacybeleid · Tuin & Co",
   description: "Hoe Hoveniersbedrijf Tuin & Co omgaat met uw gegevens.",
 };
 

@@ -19,11 +19,11 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.tuinenco.nl"),
-  title: "Tuin & Co — Hovenier in Puttershoek & de Hoeksche Waard",
+  title: "Tuin & Co · Hovenier in Puttershoek & de Hoeksche Waard",
   description:
     "Hoveniersbedrijf Tuin & Co legt complete tuinen aan in Puttershoek en de Hoeksche Waard: tuinontwerp, aanleg, bestrating, beplanting, verlichting en onderhoud. Eén vaste vakman, eerlijke prijs.",
   openGraph: {
-    title: "Tuin & Co — Hovenier in de Hoeksche Waard",
+    title: "Tuin & Co · Hovenier in de Hoeksche Waard",
     description:
       "Complete tuinen van ontwerp tot onderhoud, door één vaste vakman uit Puttershoek. Klimaatbewust aangelegd, eerlijke prijs.",
     siteName: "Hoveniersbedrijf Tuin & Co",

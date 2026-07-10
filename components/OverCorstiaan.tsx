@@ -37,7 +37,7 @@ export default function OverCorstiaan() {
               </p>
               <p>
                 &ldquo;Bij mij werkt u niet met wisselende ploegen, maar met één vast
-                aanspreekpunt — van het eerste idee tot de laatste plant. We overleggen
+                aanspreekpunt, van het eerste idee tot de laatste plant. We overleggen
                 onderweg, zodat de tuin precies wordt zoals u voor ogen heeft.&rdquo;
               </p>
             </div>
